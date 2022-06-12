@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Spectral:wght@500&display=swap');
+
+
+header{background: #c57d56;
+color: white;
+font-family:  'Roboto Mono', monospace;
+font-weight: bold;
+font-size: 1.5em;
+ text-align: center;
+margin: 2px;
+padding: 8px;
+text-decoration-style: solid;}
+
+ #Titulo{
+   text-decoration-style: solid;
+ }
+
+nav a:hover{
+  color: white;
+}
+nav a{ font-weight: 600;
+  padding-right: 10px;
+  width: 50vh;
+  min-width: 400px;
+  height:
+
+}
+body { background: #ffe0ff;
+}
+
+@media (max-width:700px) { body { background: #cdffff;     }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.paginas{ font-family:  'Roboto Mono', monospace;
+  font-size: 1.2em;
+  width:100vh;
+  height: 3rem;
+  background: #ffe0ff;
+  text-align:left;
+}
+
+ #cambiarfondo{
+color: black;
+background: white;
+display: flex;
+height: 10%;
+border: none;
+border-radius: 10px;
+font-size: 1.2rem;
+font-weight: 500;}
+
+ #cambiarfondo:hover{color: red;
+}
+
+.titulo2{font-family:  'Roboto Mono', monospace;
+  font-size: 1.17em;
+  font-weight: bold;
+ }
+.titulo3{font-family:  'Roboto Mono', monospace;
+  font-size: 1.17em;
+font-weight: bold;}
+.titulo4{font-family:  'Roboto Mono', monospace;
+  font-size: 1.17em;
+font-weight: bold;
+text-decoration-style: solid;}
+
+
+.seccion1{background: #c57d56;
+color: white;
+ font-family: helvetica;
+ font-weight: bold;
+ font-size: 1.7em;
+text-align:left;
+margin: 2px;
+padding: 10px;
+text-decoration-style: solid;}
+
+
+
+.parrafo{font-family:  'Roboto Mono', monospace;
+font-weight:lighter;
+ font-size: 1.5em;
+text-align: justify;}
+
+.contenedoromega { font-family:  'Roboto Mono', monospace;
+font-weight:lighter;
+
+text-align: justify;
+}
+.parrafo1{ font-family:  'Roboto Mono', monospace;
+font-weight:lighter;
+ font-size: 1.5em;
+text-align: justify;}
+
+
+.contenedorbeta { display: flex;
+  justify-content: space-around;
+
+}
+
+.seccion2{background:#ffb48a;
+
+font-size: 27px;
+font-family:  'Roboto Mono', monospace;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+margin: 1%;
+border: 10px solid black;
+width: 45%;
+height:600px;
+padding: 5px;
+float: left;
+justify-content: space-between;
+overflow: auto;
+box-sizing:border-box;
+text-decoration-style: solid;}
+
+
+
+.Preparacion{background:#ffb48a;
+  font-size: 27px;
+font-family:  'Roboto Mono', monospace;
+background-repeat: no-repeat;
+background-position: 50% 50%,
+margin: 1%;
+border: 10px solid black;
+width: 53%;
+height:600px;
+padding: 5px;
+float: right;
+display: flex;
+justify-content: space-around;
+overflow: auto;
+box-sizing:border-box;
+text-decoration-style: solid;
+}
+
+aside {backaground:#ffb48a;
+float: left;}
+
+
+h3 {text-align: justify;
+   font-family: helvetica;
+  }
+
+h4 {text-align: justify;
+  font-family: helvetica;
+  font-size: 30;}
+
+.mapa{display: flex;
+justify-content: space-around;}
+
+.parrafo2 {font-family:  'Roboto Mono', monospace;
+font-weight:lighter;
+ font-size: 1.5em;
+text-align: justify;}
+
+  .video{display: flex;
+  justify-content: space-around;}
+
+.contacto-boton {
+  display:inline-block;
+  padding: 3vh 3vh;
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size:1.5em;
+  background-color:  #c57d56;
+  border-radius: 5vh;
+  margin-top: 5vh;
+  margin-right: 3vh;
+  letter-spacing: 0,01vh;
+  margin-bottom: 3%;
+  font-family: helvetica;
+}
+
+.contact-boton{  display:inline-block;
+padding: 3vh 3vh;
+color: white;
+font-weight: bold;
+text-decoration: none;
+background-color: #c57d56;
+border-radius: 5vh;
+bottom: 2vh;
+margin-top: 5vh;
+margin-right: 3vh;
+font-family: helvetica;
+}
+
+ .card{
+        border: yellow 3px solid;
+    }
+
+footer{ background: #c57d56;
+  margin: 3px;
+  padding: 8px;
+height: 110px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+flex-wrap: wrap;
+
+flex-direction: row;}
+
+.insta{
+  width: 6vw;
+  height: 6vh;}
+
+.insta:hover{transform: scale(1.1);
+transition: 0,6seg;}
+
+.face{width: 6vw;
+height: 6vh;}
+
+.face:hover{transform: scale(1.1);
+transition: 0,6seg;}
+
+.container-boton { background-color:  #2e6329;
+  width: 10vh;
+  border:1 px solid white;
+  position: fixed;
+  z-index:999;
+  border-radius: 50%;
+  bottom: 2vh;
+  right: 2vh;
+  padding: 4,5vh;
+  transition:ease 0,3 seg;
+  animation: efecto 1.2 s infinite;
+}
+.container-boton:hover {
+  text-decoration: none;
+  color: #2e6329;
+background: white;
+}
+
+.boton {
+  height: auto;
+  text-decoration: none;
+  width: 4vw;
+  transition: ease 1seg;
+}
+.contenedorautor{
+
+color: white;
+font-weight: bold;
+text-decoration: none;
+background-color: none;
+}
+
+.contenedorautor:hover{}
+
+.autor{
+color: black;
+background: white;
+display: flex;
+height: 10%;
+border: none;
+border-radius: 10px;}
+
+.autor:hover{color: red;
+
+}
